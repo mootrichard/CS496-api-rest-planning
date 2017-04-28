@@ -9,13 +9,17 @@ class Boat(ndb.Model):
     length = ndb.IntegerProperty()
     at_sea = ndb.BooleanProperty()
 
+    def to_dict(self):
+        result = super(Boat, self).to_dict()
+        result['id'] = self.key.urlsafe()
+        return result
+
 @app.route('/boat/<id>', methods=['GET'])
 def get_boat(id):
     return jsonify(Boat.query().to_dict())
 
 @app.route('/boat', methods=['POST', 'GET'])
 def create_boat():
-    app.logger.info("POST: %s", request)
     if request.method == 'POST':
         json_boat = request.get_json()
 
@@ -26,18 +30,12 @@ def create_boat():
         new_boat.at_sea = json_boat['at_sea']
         new_boat_key = new_boat.put()
 
-        response_boat = new_boat_key.get().to_dict()
-        response_boat.update({'id':new_boat_key.urlsafe()})
+        return jsonify(new_boat_key.get().to_dict())
 
-        return jsonify(response_boat)
     if request.method == 'GET':
-        final_array = []
-        iter_query = Boat.query().iter()
+        boats = Boat.query()
 
-        for thing in iter_query:
-            final_array.append(json.dump(thing))
-
-        return jsonify(final_array)
+        return jsonify([boat.to_dict() for boat in boats])
 
 
 if __name__ == '__main__':

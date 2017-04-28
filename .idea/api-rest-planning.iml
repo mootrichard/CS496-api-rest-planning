@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="google-appengine-python" name="Google App Engine (Python)">
       <configuration>
-        <option name="rootFolder" value="$MODULE_DIR$/../api-rest-planning-165418" />
+        <option name="rootFolder" value="$MODULE_DIR$" />
         <option name="sdkFolder" value="$USER_HOME$/bin/google-cloud-sdk/platform/google_appengine" />
         <option name="templatesFolder" value="" />
         <option name="oauth2" value="false" />
@@ -22,11 +22,6 @@
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
-    <option name="TEMPLATE_FOLDERS">
-      <list>
-        <option value="$MODULE_DIR$/../api-rest-planning-165418/templates" />
-      </list>
-    </option>
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
