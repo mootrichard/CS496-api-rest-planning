@@ -42,4 +42,5 @@ tmtagsHistory
 
 # Libraries #
 ######################
-lib
+lib/*
+lib/*.*
