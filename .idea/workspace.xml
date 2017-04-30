@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="222e826f-33f3-4db7-b42c-a1b20615c778" name="Default" comment="">
+    <list default="true" id="222e826f-33f3-4db7-b42c-a1b20615c778" name="Default" comment="Patch boat working">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
@@ -25,8 +25,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="72" column="37" lean-forward="true" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+            <state relative-caret-position="494">
+              <caret line="112" column="17" lean-forward="true" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#712#817#0" expanded="false" />
@@ -413,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493353855732</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Patch boat working">
+      <created>1493523004988</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1493523004988</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -450,7 +457,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Get queries working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get queries working" />
+    <MESSAGE value="Patch boat working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Patch boat working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -788,8 +796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="72" column="37" lean-forward="true" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+        <state relative-caret-position="494">
+          <caret line="112" column="17" lean-forward="true" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#712#817#0" expanded="false" />

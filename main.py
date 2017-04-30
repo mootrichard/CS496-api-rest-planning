@@ -51,10 +51,10 @@ class Slip(ndb.Model):
         return result
 
 # Routes
-@app.route('/boat/<id>', methods=['GET', 'PATCH'])
+@app.route('/boat/<id>', methods=['GET', 'PATCH', 'DELETE'])
 def get_boat(id):
     try:
-        boat = ndb.Key(urlsafe=id).get()
+        boat = ndb.Key(urlsafe=id)
     except TypeError:
         raise InvalidUsage('Invalid data type, only strings allowed for Boat ID\'s', status_code=400)
     except Exception, e:
@@ -63,20 +63,30 @@ def get_boat(id):
         else:
             raise
 
+    if boat.kind() != 'Boat':
+        raise InvalidUsage('Only Boats can be modified at this endpoint.', status_code=400)
+
+    if boat.get() == None:
+        return jsonify({'error': 'not found'}), 404
+
     if request.method == 'GET':
-        return jsonify(boat.to_dict())
+        return jsonify(boat.get().to_dict())
 
     if request.method == 'PATCH':
         json_boat = request.get_json()
-
+        boat = boat.get()
         for key, value in json_boat.iteritems():
             if key in boat.to_dict():
                 setattr(boat, key, value)
 
         return jsonify(boat.put().get().to_dict())
 
+    if request.method == 'DELETE':
+        boat.delete()
+        return "No Content", 204
 
-@app.route('/boat', methods=['POST', 'GET'])
+
+@app.route('/boat', methods=['POST', 'GET'], strict_slashes=False)
 def boat_handler():
     if request.method == 'POST':
         json_boat = request.get_json()
@@ -85,7 +95,7 @@ def boat_handler():
         new_boat.name = json_boat.get('name', None)
         new_boat.type = json_boat.get('type', None)
         new_boat.length = json_boat.get('length', None)
-        new_boat.at_sea = json_boat.get('at_sea', None)
+        new_boat.at_sea = True
         new_boat.put()
 
         return jsonify(new_boat.to_dict())
@@ -94,6 +104,14 @@ def boat_handler():
         boats = Boat.query()
 
         return jsonify([boat.to_dict() for boat in boats])
+
+@app.route('/slip/<id>', methods=['GET', 'POST', 'PATCH', 'DELETE']):
+def slip_handler:
+    pass
+
+@app.route('/slip', methods=['GET', 'POST', 'PATCH', 'DELETE']):
+def slip_handler:
+    pass
 
 if __name__ == '__main__':
     app.run()
