@@ -1,0 +1,1 @@
+Location for all installed libraries required for application. Run `pip install -r requirements.txt -t lib/` to install all dependencies.

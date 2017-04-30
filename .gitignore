@@ -43,3 +43,4 @@ tmtagsHistory
 # Libraries #
 ######################
 lib/*
+!lib/README.md
