@@ -105,13 +105,33 @@ def boat_handler():
 
         return jsonify([boat.to_dict() for boat in boats])
 
-@app.route('/slip/<id>', methods=['GET', 'POST', 'PATCH', 'DELETE']):
-def slip_handler:
+@app.route('/slip/<id>', methods=['GET', 'PATCH', 'DELETE'])
+def get_slip(id):
+
+
     pass
 
-@app.route('/slip', methods=['GET', 'POST', 'PATCH', 'DELETE']):
-def slip_handler:
-    pass
+@app.route('/slip', methods=['GET', 'POST'], strict_slashes=False)
+def slip_handler():
+
+    if request.method == 'GET':
+        slips = Slip.query()
+        return jsonify([slip.to_dict() for slip in slips])
+
+    if request.method == 'POST':
+        json_slip = request.get_json()
+
+        if 'number' not in json_slip or json_slip.get('number') == None:
+            raise InvalidUsage('A name is required for creating a slip', status_code=400)
+
+        new_slip = Slip()
+        new_slip.number = json_slip.get('number')
+        new_slip.current_boat = None
+        new_slip.arrival_date = None
+        new_slip.departure_history = []
+
+        new_slip.put()
+        return jsonify(new_slip.to_dict())
 
 if __name__ == '__main__':
     app.run()

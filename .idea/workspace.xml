@@ -1,8 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="222e826f-33f3-4db7-b42c-a1b20615c778" name="Default" comment="Patch boat working">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="222e826f-33f3-4db7-b42c-a1b20615c778" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/api-rest-planning.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Google_App_Engine_SDK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.12.1.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.12.1.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.12.1.dist-info/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.12.1.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.12.1.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.12.1.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.12.1.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.12.1.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Flask-0.12.1.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Jinja2-2.9.6.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Jinja2-2.9.6.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Jinja2-2.9.6.dist-info/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Jinja2-2.9.6.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Jinja2-2.9.6.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Jinja2-2.9.6.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Jinja2-2.9.6.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Jinja2-2.9.6.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Jinja2-2.9.6.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MarkupSafe-1.0-py2.7.egg-info/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MarkupSafe-1.0-py2.7.egg-info/SOURCES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MarkupSafe-1.0-py2.7.egg-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MarkupSafe-1.0-py2.7.egg-info/installed-files.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MarkupSafe-1.0-py2.7.egg-info/not-zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/MarkupSafe-1.0-py2.7.egg-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.12.1.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.12.1.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.12.1.dist-info/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.12.1.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.12.1.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.12.1.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.12.1.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Werkzeug-0.12.1.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click-6.7.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click-6.7.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click-6.7.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click-6.7.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click-6.7.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click-6.7.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click-6.7.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/_bashcomplete.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/_termui_impl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/_textwrap.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/_unicodefun.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/_winconsole.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/core.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/decorators.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/formatting.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/globals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/parser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/termui.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/testing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/types.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/click/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/app.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/blueprints.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/cli.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/ctx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/debughelpers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/ext/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/exthook.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/globals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/helpers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/json.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/logging.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/sessions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/signals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/templating.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/testing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/flask/wrappers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/SOURCES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/installed-files.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/not-zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/itsdangerous-0.24-py2.7.egg-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/itsdangerous.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/_stringdefs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/asyncfilters.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/asyncsupport.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/bccache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/compiler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/debug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/defaults.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/environment.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/ext.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/filters.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/idtracking.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/lexer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/loaders.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/meta.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/nodes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/optimizer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/parser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/runtime.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/sandbox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jinja2/visitor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/markupsafe/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/markupsafe/_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/markupsafe/_constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/markupsafe/_native.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/markupsafe/_speedups.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/markupsafe/_speedups.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/_internal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/_reloader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/atom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/fixers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/iterio.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/jsrouting.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/limiter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/lint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/profiler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/securecookie.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/sessions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/testtools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/contrib/wrappers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/datastructures.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/console.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/repr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/shared/FONT_LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/shared/console.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/shared/debugger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/shared/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/shared/less.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/shared/more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/shared/source.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/shared/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/shared/ubuntu.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/debug/tbtools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/filesystem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/formparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/http.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/local.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/posixemulation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/routing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/script.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/security.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/serving.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/testapp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/useragents.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/wrappers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werkzeug/wsgi.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,15 +194,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="112" column="17" lean-forward="true" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+            <state relative-caret-position="1800">
+              <caret line="123" column="34" lean-forward="false" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#712#817#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,6 +226,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -54,10 +237,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="814" />
+    <option name="x" value="621" />
     <option name="y" value="23" />
-    <option name="width" value="1105" />
-    <option name="height" value="947" />
+    <option name="width" value="1298" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -75,7 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -90,6 +272,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -111,6 +294,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="/usr/local/lib/node_modules/eslint" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -420,24 +604,31 @@
       <option name="project" value="LOCAL" />
       <updated>1493523004988</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Boat mostly complete, need to implement Slip">
+      <created>1493530594369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1493530594370</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="814" y="23" width="1105" height="947" extended-state="0" />
+    <frame x="621" y="23" width="1298" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3167421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2696456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31435078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30396476" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -458,7 +649,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Get queries working" />
     <MESSAGE value="Patch boat working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Patch boat working" />
+    <MESSAGE value="Boat mostly complete, need to implement Slip" />
+    <option name="LAST_COMMIT_MESSAGE" value="Boat mostly complete, need to implement Slip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -470,6 +662,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="123" column="34" lean-forward="false" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#712#817#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -546,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="250" column="0" lean-forward="false" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -554,7 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="313" column="0" lean-forward="false" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -562,7 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="1301" column="0" lean-forward="false" selection-start-line="1301" selection-start-column="0" selection-end-line="1301" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -577,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="366" column="0" lean-forward="false" selection-start-line="366" selection-start-column="0" selection-end-line="366" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -585,7 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,7 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="514" column="0" lean-forward="false" selection-start-line="514" selection-start-column="0" selection-end-line="514" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,9 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="3473" column="0" lean-forward="false" selection-start-line="3473" selection-start-column="0" selection-end-line="3473" selection-end-column="0" />
-          <folding>
-            <marker date="1491430764000" expanded="true" signature="122748:122765" ph="SELECT * FRO... missing_value" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="258" column="0" lean-forward="false" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,7 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,7 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,7 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="1781" column="0" lean-forward="false" selection-start-line="1781" selection-start-column="0" selection-end-line="1781" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="1996" column="0" lean-forward="false" selection-start-line="1996" selection-start-column="0" selection-end-line="1996" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,18 +974,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="831" column="0" lean-forward="false" selection-start-line="831" selection-start-column="0" selection-end-line="831" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="112" column="17" lean-forward="true" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+        <state relative-caret-position="1800">
+          <caret line="123" column="34" lean-forward="false" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#712#817#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
